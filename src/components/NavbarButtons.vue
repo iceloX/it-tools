@@ -27,7 +27,7 @@ const { isDarkTheme } = toRefs(styleStore);
       href="https://www.icelo.org/about"
       target="_blank"
       rel="noopener noreferrer"
-      :aria-label="$t('home.nav.about')"
+      :aria-label="$t('home.nav.aboutLabel')"
     >
       <n-icon size="25" :component="IconInfoCircle" />
     </c-button>
